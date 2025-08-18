@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(122, 176, 194);
+    color: rgb(36, 84, 102) ;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+
+h2{
+    color: rgb(54, 112, 131);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#darkmode{
+    text-align:left;
+}
+
+#main{
+    cursor:default;
+    text-align: center;
+}
+
+/* #darkmodeicon{
+    background-color: lightblue;
+    border-radius: 10px;
+    border:none;
+    color: rgb(69, 121, 139) ;
+} */
+
+#field{
+    outline: none;
+    border: none;
+    text-align: center;
+    border-radius: 7px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: rgb(41, 84, 99);
+    background-color: lightblue;
+    width:80%;
+    height: 35vh;
+    display: inline;
+    overflow: auto;
+    margin-inline: 5%;
+    margin-top: 5%;
+}
+
+#cefr_buttons{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.cefr_buttons{
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 7px;
+    width: 40px;
+    color:rgb(41, 84, 99) ;
+    background-color: lightblue;
+    font-weight: bold;
+    text-align: center;
+    margin-inline: 2px;
+    font-size: medium;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+#field::placeholder{
+    color: rgb(78, 133, 151);
+}
+
+form{
+    margin: 0;
+    padding: 0;
+}
+
+.div{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: rgb(78, 130, 148);
+    margin: 5px;
+    padding: 4px;
+    border-radius: 12px;
+}
+
+button{
+    background-color: lightblue;
+    border: none;
+    margin: 0;
+    margin-inline: 3px;
+    border-radius: 15px;
+    font-size:x-large;
+    color: rgb(69, 121, 139);
+    vertical-align: middle;
+}
+
+@media screen and (max-width:633px) {
+    .hide{visibility: collapse;}
+    button{
+        width: 40px;
+        height: 40px;
+    }
+    nav{
+        height: 40px;
+    }
+}
+
+#logo{
+    margin: 10px;
+    padding: 0;
+    float:left;
+}
+ 
+
+@media screen and (max-width:277px) {
+    #allhide{visibility:hidden;}
+
+    button{
+        width: 40px;
+        height: 40px;
+    }
+    nav{
+        height: 40px;
+    }
+}
